@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "Yeoman generator to generate TypeScript Library",
   "files": [
-    "generators"
+    "generators",
+    "generators/app/templates/.gitignore"
   ],
   "keywords": [
     "yeoman-generator"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zqlu/generator-ts-lib-starter.git"
+  },
   "author": "zqlu.cn@gmail.com",
   "license": "MIT",
   "dependencies": {
