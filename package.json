@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Yeoman generator to generate TypeScript Library",
   "files": [
-    "generators",
+    "generators"
   ],
   "keywords": [
     "yeoman-generator"
