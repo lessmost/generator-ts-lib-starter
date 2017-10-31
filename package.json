@@ -1,0 +1,17 @@
+{
+  "name": "generator-ts-lib-starter",
+  "version": "1.0.0",
+  "description": "Yeoman generator to generate TypeScript Library",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "author": "zqlu.cn@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "yeoman-generator": "^2.0.1"
+  }
+}
