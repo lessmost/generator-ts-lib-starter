@@ -7,7 +7,6 @@ const FILES = [
   'package.json',
   'tsconfig.json',
   'index.html',
-  '.gitignore',
   'src/index.ts',
   'src/math.ts',
   'src/math.spec.ts',
@@ -23,6 +22,10 @@ module.exports = class extends Generator {
     FILES.forEach(file => {
       this.fs.copy(this.templatePath(file), this.destinationPath(file));
     });
+    this.fs.copy(
+      this.templatePath('.gitignore.src'),
+      this.destinationPath('.gitignore')
+    );
   }
 
   install() {
