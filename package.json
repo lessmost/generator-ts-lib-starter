@@ -4,7 +4,6 @@
   "description": "Yeoman generator to generate TypeScript Library",
   "files": [
     "generators",
-    "generators/app/templates/.gitignore"
   ],
   "keywords": [
     "yeoman-generator"
