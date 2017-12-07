@@ -9,7 +9,7 @@ A [Yeoman](http://yeoman.io/) generator to create a base template for TypeScript
 - Build ES6 module output (```module``` filed in ```package.json```)
 - Build UMD dist output, include development source map version and minify version (```browser``` filed in ```package.json```)
 
-## usage
+## Usage
 
 Install Yeoman
 
