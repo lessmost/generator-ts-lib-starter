@@ -4,6 +4,7 @@
   "description": "my-ts-lib",
   "main": "lib/cjs/index.js",
   "types": "lib/cjs/index.d.ts",
+  "browser": "dist/my-ts-lib.min.js",
   "scripts": {
     "prebuild": "rm -fr lib; rm -fr dist; mkdir lib; mkdir dist",
     "build": "npm run build:cjs; npm run build:es6; npm run build:browser; npm run build:browser:min",

@@ -3,7 +3,7 @@ const chalk = require('chalk');
 const fs = require('fs');
 
 const FILES = [
-  'README',
+  'README.md',
   'package.json',
   'tsconfig.json',
   'index.html',
